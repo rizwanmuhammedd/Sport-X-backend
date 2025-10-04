@@ -511,41 +511,7 @@
       "password": "11111111",
       "role": "user",
       "isAuthenticated": true,
-      "cart": [
-        {
-          "id": "4",
-          "name": "Training Bibs Set",
-          "price": 7.99,
-          "image": "https://m.media-amazon.com/images/I/81hDP1dyxWL._AC_UL320_.jpg",
-          "category": "Training Gear",
-          "stock": 24,
-          "description": "",
-          "rating": 3,
-          "quantity": 4
-        },
-        {
-          "id": "3",
-          "name": "Goalkeeper Gloves",
-          "price": 19.99,
-          "image": "https://m.media-amazon.com/images/I/81jhJa-Gn0L._AC_UL320_.jpg",
-          "category": "Gloves",
-          "stock": 8,
-          "description": "",
-          "rating": 3.8,
-          "quantity": 1
-        },
-        {
-          "id": "5",
-          "name": "Football Jersey",
-          "price": 14.99,
-          "image": "https://m.media-amazon.com/images/I/51NLlpgWGhL._AC_UL320_.jpg",
-          "category": "Jerseys",
-          "stock": 15,
-          "description": "",
-          "rating": 3.5,
-          "quantity": 1
-        }
-      ],
+      "cart": [],
       "wishlist": [
         {
           "id": "3",
@@ -595,6 +561,11 @@
         },
         {
           "id": "1567b8y",
+          "address": "Sulthan Bathery Kerala",
+          "city": "Bathery",
+          "postalCode": "673595"
+        },
+        {
           "address": "Sulthan Bathery Kerala",
           "city": "Bathery",
           "postalCode": "673595"
@@ -1486,6 +1457,23 @@
           "status": "Processing",
           "paymentMethod": "cod",
           "date": "2025-10-01"
+        },
+        {
+          "id": "7d6c",
+          "userId": "66d0",
+          "items": [
+            {
+              "id": "5",
+              "name": "Football Jersey",
+              "price": 14.99,
+              "image": "https://m.media-amazon.com/images/I/51NLlpgWGhL._AC_UL320_.jpg",
+              "quantity": 1
+            }
+          ],
+          "total": 14.99,
+          "status": "Processing",
+          "paymentMethod": "cod",
+          "date": "2025-10-04"
         }
       ],
       "status": "active"
@@ -1723,7 +1711,7 @@
       "price": 14.99,
       "image": "https://m.media-amazon.com/images/I/51NLlpgWGhL._AC_UL320_.jpg",
       "category": "Jerseys",
-      "stock": 15,
+      "stock": 14,
       "description": ""
     },
     {
@@ -3105,6 +3093,23 @@
       "status": "Processing",
       "paymentMethod": "cod",
       "date": "2025-10-01"
+    },
+    {
+      "id": "7d6c",
+      "userId": "66d0",
+      "items": [
+        {
+          "id": "5",
+          "name": "Football Jersey",
+          "price": 14.99,
+          "image": "https://m.media-amazon.com/images/I/51NLlpgWGhL._AC_UL320_.jpg",
+          "quantity": 1
+        }
+      ],
+      "total": 14.99,
+      "status": "Processing",
+      "paymentMethod": "cod",
+      "date": "2025-10-04"
     }
   ]
 }
