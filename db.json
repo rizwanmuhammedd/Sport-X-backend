@@ -511,7 +511,19 @@
       "password": "11111111",
       "role": "user",
       "isAuthenticated": true,
-      "cart": [],
+      "cart": [
+        {
+          "id": "3",
+          "name": "Goalkeeper Gloves",
+          "price": 19.99,
+          "image": "https://m.media-amazon.com/images/I/81jhJa-Gn0L._AC_UL320_.jpg",
+          "category": "Gloves",
+          "stock": 8,
+          "description": "",
+          "rating": 3.8,
+          "quantity": 6
+        }
+      ],
       "wishlist": [
         {
           "id": "3",
@@ -1941,9 +1953,9 @@
     },
     {
       "id": "102",
-      "name": "Adidas Training Jersey",
+      "name": "Adidas Jersey",
       "price": 35,
-      "image": "https://m.media-amazon.com/images/I/81ubOsdvcvL._AC_UL320_.jpg",
+      "image": "https://th.bing.com/th/id/OIP.iCBsdh7VUZg9oYBGy7NNGgHaHG?w=218&h=210&c=7&r=0&o=7&pid=1.7&rm=3",
       "category": "Jerseys",
       "stock": 16,
       "description": ""

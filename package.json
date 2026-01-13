@@ -4,10 +4,13 @@
   "description": "Fake API for Sport-X app",
   "main": "db.json",
   "scripts": {
+     "dev": "react-scripts start",
     "start": "npx json-server --host 0.0.0.0 --watch db.json --port 10000"
   },
   "dependencies": {
-    "json-server": "0.17.4"
+    "@reduxjs/toolkit": "^2.9.0",
+    "json-server": "0.17.4",
+    "react-redux": "^9.2.0"
   },
   "engines": {
     "node": ">=18"
